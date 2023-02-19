@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+body{
+    background-color:#494949;
+    padding: 1%;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head{
+    background-color:black;
+    border-radius: 50px;
+    height: 100vh;
+    
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo h1{
+    
+    color: aliceblue;
+    padding-left: 5%;
+    font-family: 'Italiana';
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 300;
+    padding-top: 2%;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo span{
+    color: orangered;
 }
 
-.App-link {
-  color: #61dafb;
+.manu{
+    display: flex;
+    font-size: 20px;
+    margin-top: -6%;
+    margin-left: 50%;
+    gap: 8%;
+    list-style: none;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.manu li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.manu a{
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.9s;
+}
+.manu a:hover{
+    color: orangered;
+}
+
+
+.profil img{
+ border-radius: 50%; 
+ height: 200px;
+ width: 200px;
+ margin-left: 15%;
+ justify-content: center;
+ margin-top: 10%;
+ overflow:hidden;
+ transition: 0.9s;
+ border: 5px solid #5b5959;
+}
+
+
+.profil img:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    color: white;
+    margin-left: 40%;
+    justify-content: center;
+    margin-top: -15%;
+}
+.container span{
+    color: orangered;
+    font-style:italic ;
+    font-size: 20px;
+}
+.container h1{
+    color: orangered;
+}
+.social{
+    margin-top: -13%;
+}
+.social img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-left: 5%;
+
 }
